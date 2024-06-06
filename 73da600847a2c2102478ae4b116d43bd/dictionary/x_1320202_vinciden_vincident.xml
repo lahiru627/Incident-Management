@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="87fbec4847a2c2102478ae4b116d43a8" extends="task" label="Vincident" max_length="40" name="x_1320202_vinciden_vincident" type="collection">
+        <element choice="1" label="category" max_length="40" name="category" type="choice">
+            <choice/>
+        </element>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+    </element>
+</database>
